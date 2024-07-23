@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int s1 = a*a;
+        if(a>=0 && a<=9)
+        {
+            if(a%10 == s1%10)
+            {
+                System.out.println("Automorphic Number");
+            }else
+            {
+                System.out.println("Not Automorphic Number");
+            }}
+        else
+        {
+        
+            System.out.println("Invalid Input");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
