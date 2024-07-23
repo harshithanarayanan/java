@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        char i = s.next().charAt(0);
+        if(i>='A' && i<='Z' || i>='a' && i<='z')
+        {
+    System.out.println("The Character "+i+" is Vowel");
+        }
+        else
+        {
+            System.out.println("Invalid Input");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
